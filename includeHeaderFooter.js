@@ -1,7 +1,7 @@
 let includedHeader = document.querySelector('header'); // находим хедер в коде
 includedHeader.insertAdjacentHTML("afterbegin", `
 <div id="header">
-    <a href="главная.html" >
+    <a href="index.html" >
         <svg class="logo" viewBox="0 0 104 94" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M18.5969 19.1214C14.5284 29.9705 9.8158 54.1778 23.5129 64.2132C40.6342 76.7576 58.3959 69.167 60.8069 68.1122C63.5192 66.9255 80.9796 57.4325 75.555 25.7326C69.0003 31.6092 49.4492 43.871 25.2081 45.5662" stroke="#B59177" stroke-width="2"/>
         <path d="M15.0371 48.787C21.2528 56.4718 40.0919 70.3497 67.0792 63.7046" stroke="#B59177" stroke-width="2"/>
