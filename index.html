@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="стили главная.css">
+        <link rel="stylesheet" href="стили общий.css">
+        <script defer src="includeHeaderFooter.js"></script> <!-- параллельное считывание вёрстки и скрипта -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="scroller.js"></script>
+        
+        <link type="image/png" sizes="32x32" rel="icon" href="./img/лого.png">
+
+        <title>Кафе-кондитерская "Кокон"</title>
+    </head>
+
+
+    <body>
+        <div id="background">
+            <header></header>
+
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                        
+                        <ul class="menu_burger" id="menu_burger">
+                            <li><a href="меню.html">МЕНЮ</a></li>
+                            <li><a href="новинки.html">НОВИНКИ</a></li>
+                            <li><a href="о нас.html">О НАС</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup"></div>
+
+            <div id="banner">
+                <img class="img1" src="./img/cupofcoffe.jpg">
+                <div class="banner_info">
+                    <img class="logo1" src="./img/лого.png">
+                    <div class="name">КОКОН</div>
+                    <div class="subtitle">кафе-кондитерская</div>
+                </div>
+            </div>
+
+
+            <div id="menu">
+                <div class="menu_block">
+                    <div class="menu_blockTxt">
+                        <div class="menu"><a href="меню.html">МЕНЮ</a></div>
+                        <div class="text_menu">
+                            С&nbsp;чего&nbsp;же еще начинается знакомство с&nbsp;кофейней, как
+                            не&nbsp;с&nbsp;меню?<br><br>
+                            Поэтому предлагаем вам отправиться в&nbsp;волшебное путешествие по&nbsp;миру вкусов!
+                        </div>
+                        <div class="text_menu_phone">
+                            Отправьтесь в&nbsp;волшебное путешествие по&nbsp;миру вкусов!
+                        </div>
+                    </div>
+                    <div class="rectangle_white_menu"></div>
+                    <div class="rectangle_beige"></div>
+                    <img class="img2" src="./img/cake.png">
+                    <div class="menuBigTxt">МЕНЮ</div>
+                </div>
+            </div>
+
+
+            <div id="news">
+                <div class="news_block">
+                    <div class="rectangle_white_news"></div>
+                    <div class="rectangle_brown"></div>
+                    <img class="img3" src="./img/макаронсы.png">
+                    <div class="newsBigTxt">НОВИНКИ</div>
+                    <div class="news_blockTxt">
+                        <div class="news"><a href="новинки.html">НОВИНКИ</a></div>
+                        <div class="text_news">
+                            Ежедневно мы&nbsp;пробуем новые комбинации, чтобы каждый смог найти вкус, который ему
+                            по&nbsp;душе.<br><br>Будь в&nbsp;курсе новинок!
+                        </div>
+                        <div class="text_news_phone">
+                            Станьте дегустором новых вкусов!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="about_us">
+                <div class="about_us_block">
+                    <div class="about_us_blockTxt">
+                        <div class="about_us"><a href="о нас.html">О НАС</a></div>
+                        <div class="text_about_us">
+                            Наша кофейня наполнена любовью и&nbsp;заботой о&nbsp;своих посетителях. Устав
+                            от&nbsp;городской
+                            суеты, вы&nbsp;сможете расслабиться и&nbsp;приятно провести время в&nbsp;окружении
+                            внимательного
+                            персонала и&nbsp;стильного интерьера.<br><br>Будьте в&nbsp;числе наших гостей!
+                        </div>
+                        <div class="text_about_us_phone">
+                            Немного об&nbsp;истории нашего развития.
+                        </div>
+                    </div>
+                    <div class="rectangle_white_about_us"></div>
+                    <div class="rectangle_green"></div>
+                    <img class="img4" src="./img/Семья Кокон.png">
+                    <div class="about_usBigTxt">О&nbsp;НАС</div>
+                </div>
+            </div>
+
+            <footer></footer>
+            <a href="#" class="scrollup"><img src="./img/scroll.png"></a>
+
+        </div>
+        <script src="burger.js"></script>
+
+    </body>
+
+</html>

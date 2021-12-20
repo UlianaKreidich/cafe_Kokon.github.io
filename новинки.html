@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="стили общий.css">
+        <link rel="stylesheet" href="стили новинки.css">
+        <script defer src="includeHeaderFooter.js"></script> <!-- параллельное считывание вёрстки и скрипта -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="scroller.js"></script>
+        <link type="image/png" sizes="32x32" rel="icon" href="./img/лого.png">
+
+        <title>Новинки "Кокон"</title>
+    </head>
+
+    <body>
+        <div id="background">
+            <header></header>
+
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                        
+                        <ul class="menu_burger" id="menu_burger">
+                            <li><a href="index.html">ГЛАВНАЯ</a></li>
+                            <li><a href="меню.html">МЕНЮ</a></li>
+                            <li><a href="о нас.html">О НАС</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup"></div>
+
+            <div id="macarons">
+                <div class="macaronsTitle">
+                    <div class="newsBigTxt">НОВИНКИ</div>
+                </div>
+                <img class="img2" src="./img/макарон phone.jpg">
+                <div class="macarons_block">
+                    <img class="img1" src="./img/макарон.jfif">
+                    <div class="macarons_txt">
+                        <div class="macarons_title">
+                            МАКАРОНСЫ
+                        </div>
+                        <div class="macarons_item">
+                            Нельзя купить счастье, но&nbsp;можно купить макарон. А&nbsp;это почти то&nbsp;же самое!
+                            Приглашаем в&nbsp;Кокон на&nbsp;дегустацию наивкуснейших макаронсов!
+                            <br><br>
+                            P.&nbsp;S.&nbsp;Поторопитесь! Исчезают с&nbsp;витрины очень быстро 😉
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cakePops">
+                <div class="cakePops_block">
+                    <img class="img4" src="./img/cake pops phone.jpg">
+                    <div class="cakePops_txt">
+                        <div class="cakePops_title">
+                            КЕЙК-ПОПСЫ
+                        </div>
+                        <div class="cakePops_item">
+                            Для тех, кто по-настоящему верит в&nbsp;волшебство мы&nbsp;приготовили магические
+                            кейк-попсы.
+                            Такую волшебную палочку будет приятно получить каждому ребёнку!
+                        </div>
+                    </div>
+                    <img class="img3" src="./img/kokon_brest-20211019-0003.jpg">
+                </div>
+            </div>
+
+            <div id="wine">
+                <div class="wine_block">
+                    <img class="img5" src="./img/вино.jfif">
+                    <img class="img6" src="./img/wine phone.jfif">
+                    <div class="wine_txt">
+                        <div class="wine_title">
+                            ВИНО
+                        </div>
+                        <div class="wine_item">
+                            Сбылась мечта многих!
+                            <br><br>
+                            Теперь в&nbsp;Коконе можно не&nbsp;только вкусно поесть,
+                            но&nbsp;и&nbsp;расслабиться, подобрав к&nbsp;своему любимому
+                            десерту идеальное вино!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer></footer>
+            <a href="#" class="scrollup"><img src="./img/scroll.png"></a>
+        </div>
+        <script src="burger.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="стили меню.css">
+        <link rel="stylesheet" href="стили общий.css">
+        <script defer src="includeHeaderFooter.js"></script> <!-- параллельное считывание вёрстки и скрипта -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="scroller.js"></script>
+        <link type="image/png" sizes="32x32" rel="icon" href="./img/лого.png">
+
+        <title>Меню "Кокон"</title>
+    </head>
+
+    <body>
+        <div id="background">
+            <header></header>
+
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+
+                        <ul class="menu_burger" id="menu_burger">
+                            <li><a href="index.html">ГЛАВНАЯ</a></li>
+                            <li><a href="новинки.html">НОВИНКИ</a></li>
+                            <li><a href="о нас.html">О НАС</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup"></div>
+
+            <div id="cakes">
+                <img class="img1" src="./img/тортикк.png">
+                <div class="cakesTitle">
+                    <div class="menuBigTxt">МЕНЮ</div>
+                </div>
+                <img class="img2" src="./img/cake phone.jpg">
+
+                <div class="infoCakes">
+                    <div class="infoCakesHeader">
+                        <div class="infoCakes_title">
+                            ТОРТЫ
+                        </div>
+                        <div class="piece">*цена за кусок</div>
+                    </div>
+
+                    <div class="infoCakesBody">
+
+                        <div class="infoCakesBody_item">
+                            <div class="CakesBody_item_title">
+                                Чизкейк
+                            </div>
+                            <div class="CakesBody_item_price">
+                                3.00р.
+                            </div>
+                        </div>
+
+                        <div class="infoCakesBody_item">
+                            <div class="CakesBody_item_title">
+                                Чизкейк с малиной
+                            </div>
+                            <div class="CakesBody_item_price">
+                                3.00р.
+                            </div>
+                        </div>
+                        <div class="infoCakesBody_item">
+                            <div class="CakesBody_item_title">
+                                Медовик
+                            </div>
+                            <div class="CakesBody_item_price">
+                                3.50р.
+                            </div>
+                        </div>
+                        <div class="infoCakesBody_item">
+                            <div class="CakesBody_item_title">
+                                Шпинатный
+                            </div>
+                            <div class="CakesBody_item_price">
+                                4.00р.
+                            </div>
+                        </div>
+                        <div class="infoCakesBody_item">
+                            <div class="CakesBody_item_title">
+                                Малахит
+                            </div>
+                            <div class="CakesBody_item_price">
+                                4.50р.
+                            </div>
+                        </div>
+                        <div class="infoCakesBody_item">
+                            <div class="CakesBody_item_title">
+                                Красный бархат
+                            </div>
+                            <div class="CakesBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="croissants">
+                <img class="img3" src="./img/kokon_brest-20211018-0001.jpg">
+                <img class="img4" src="./img/круассан phone.jpg">
+                <div class="infoCroissants">
+                    <div class="infoCroissantsHeader">
+                        <div class="infoCroissants_title">
+                            КРУАССАНЫ
+                        </div>
+                    </div>
+
+                    <div class="infoCroissantsBody">
+
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                Классический
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                3.00р.
+                            </div>
+                        </div>
+
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                С ветчиной
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                6.50р.
+                            </div>
+                        </div>
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                С семгой
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                7.00р.
+                            </div>
+                        </div>
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                С кобаносами
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                6.50р.
+                            </div>
+                        </div>
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                С вялеными томатами
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                6.50р.
+                            </div>
+                        </div>
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                Со свёклой и сыром
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                6.50р.
+                            </div>
+                        </div>
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                С лимонным курдом
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                        <div class="infoCroissantsBody_item">
+                            <div class="CroissantsBody_item_title">
+                                С карамелью
+                            </div>
+                            <div class="CroissantsBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="puncakes">
+                <img class="img6" src="./img/блинчики phone.jpg">
+                <div class="infoPuncakes">
+                    <div class="infoPuncakesHeader">
+                        <div class="infoPuncakes_title">
+                            БЛИНЧИКИ
+                        </div>
+                    </div>
+
+                    <div class="infoPuncakessBody">
+
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С сёмгой
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                7.00р.
+                            </div>
+                        </div>
+
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С ветчиной
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                6.50р.
+                            </div>
+                        </div>
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С кабаносами
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                6.50р.
+                            </div>
+                        </div>
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С медом
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С карамелью и орехами
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С джемом и сметаной
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                        <div class="infoPuncakesBody_item">
+                            <div class="PuncakesBody_item_title">
+                                С бананом и топингом
+                            </div>
+                            <div class="PuncakesBody_item_price">
+                                5.00р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="img5" src="./img/блинчики.jfif">
+            </div>
+
+
+
+            <div id="breakfast">
+                <img class="img7" src="./img/гранола.jfif">
+                <img class="img8" src="./img/гранола phone.jpg">
+
+                <div class="infoBreakfast">
+                    <div class="infoBreakfastHeader">
+                        <div class="infoBreakfast_title">
+                            ЗАВТРАКИ
+                        </div>
+                    </div>
+
+                    <div class="infoBreakfastBody">
+
+                        <div class="infoBreakfastBody_item">
+                            <div class="BreakfastBody_item_title">
+                                Гранола
+                            </div>
+                            <div class="BreakfastBody_item_price">
+                                6.70р.
+                            </div>
+                        </div>
+
+                        <div class="infoBreakfastBody_item">
+                            <div class="BreakfastBody_item_title">
+                                Гранола-лайт
+                            </div>
+                            <div class="BreakfastBody_item_price">
+                                8.50р.
+                            </div>
+                        </div>
+                        <div class="infoBreakfastBody_item">
+                            <div class="BreakfastBody_item_title">
+                                Комплекс-мини
+                            </div>
+                            <div class="BreakfastBody_item_price">
+                                8.00р.
+                            </div>
+                        </div>
+                        <div class="infoBreakfastBody_item">
+                            <div class="BreakfastBody_item_title">
+                                Комплекс<br>+ стандартный напиток
+                            </div>
+                            <div class="BreakfastBody_item_price">
+                                14.70р.
+                            </div>
+                        </div>
+                        <div class="infoBreakfastBody_item">
+                            <div class="BreakfastBody_item_title">
+                                Каша гречневая<br>с вялеными томатами
+                            </div>
+                            <div class="BreakfastBody_item_price">
+                                5.50р.
+                            </div>
+                        </div>
+                        <div class="infoBreakfastBody_item">
+                            <div class="BreakfastBody_item_title">
+                                Каша "Кокон"
+                            </div>
+                            <div class="BreakfastBody_item_price">
+                                5.50р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="drink">
+
+                <div class="drinkTitle">
+                    <div class="drinkBigTxt">НАПИТКИ</div>
+                </div>
+                <img class="img10" src="./img/кофе phone.jpg">
+
+                <div class="coffee">
+                    <div class="infoCoffee">
+                        <div class="infoCoffeeHeader">
+                            <div class="infoCoffee_title">
+                                КОФЕ
+                            </div>
+                        </div>
+
+                        <div class="infoCoffeeBody">
+
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Капучино
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        220/350 мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    3.80/4.40р.
+                                </div>
+                            </div>
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Американо
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        90/180&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    3.50/3.70р.
+                                </div>
+                            </div>
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Эспрессо
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        30/60&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    3.00/3.50р.
+                                </div>
+                            </div>
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Латте
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        220/350&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    3.80/4.40р.
+                                </div>
+                            </div>
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Матча&nbsp;-&nbsp;латте
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        220&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    4.90р.
+                                </div>
+                            </div>
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Раф
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        220/350&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    4.40/6.50р.
+                                </div>
+                            </div>
+                            <div class="infoCoffeeBody_item">
+                                <div class="infoCoffeeBody_item_div">
+                                    <div class="CoffeeBody_item_title">
+                                        Флэт&nbsp;Уайт
+                                    </div>
+                                    <div class="CoffeeBody_item_ml">
+                                        250&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CoffeeBody_item_price">
+                                    4.20р.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img class="img9" src="./img/кофе.jfif">
+                </div>
+
+
+                <div class="cocoa">
+                    <img class="img11" src="./img/какао.jfif">
+                    <img class="img12" src="./img/какао phone.jpg">
+                    <div class="infoCocoa">
+                        <div class="infoCocoaHeader">
+                            <div class="infoCocoa_title">
+                                ДЛЯ ДЕТЕЙ
+                            </div>
+                        </div>
+
+                        <div class="infoCocoaBody">
+
+                            <div class="infoCocoaBody_item">
+                                <div class="infoCocoaBody_item_div">
+                                    <div class="CocoaBody_item_title">
+                                        Детский&nbsp;латте
+                                    </div>
+                                    <div class="CocoaBody_item_ml">
+                                        220&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CocoaBody_item_price">
+                                    3.50р.
+                                </div>
+                            </div>
+                            <div class="infoCocoaBody_item">
+                                <div class="infoCocoaBody_item_div">
+                                    <div class="CocoaBody_item_title">
+                                        Детский&nbsp;капучино
+                                    </div>
+                                    <div class="CocoaBody_item_ml">
+                                        250&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CocoaBody_item_price">
+                                    3.00р.
+                                </div>
+                            </div>
+                            <div class="infoCocoaBody_item">
+                                <div class="infoCocoaBody_item_div">
+                                    <div class="CocoaBody_item_title">
+                                        Какао
+                                    </div>
+                                    <div class="CocoaBody_item_ml">
+                                        350&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CocoaBody_item_price">
+                                    4.00р.
+                                </div>
+                            </div>
+                            <div class="infoCocoaBody_item">
+                                <div class="infoCocoaBody_item_div">
+                                    <div class="CocoaBody_item_title">
+                                        Ореховый&nbsp;какао<br>с&nbsp;маршмеллоу
+                                    </div>
+                                    <div class="CocoaBody_item_ml">
+                                        350&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CocoaBody_item_price">
+                                    5.00р.
+                                </div>
+                            </div>
+                            <div class="infoCocoaBody_item">
+                                <div class="infoCocoaBody_item_div">
+                                    <div class="CocoaBody_item_title">
+                                        Горячий&nbsp;шоколад
+                                    </div>
+                                    <div class="CocoaBody_item_ml">
+                                        220&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="CocoaBody_item_price">
+                                    7.00р.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tea">
+                    <img class="img14" src="./img/чай phone.jpg">
+                    <div class="infoTea">
+                        <div class="infoTeaHeader">
+                            <div class="infoTea_title">
+                                ЧАЙ
+                            </div>
+                        </div>
+
+                        <div class="infoTeaBody">
+
+                            <div class="infoTeaBody_item">
+                                <div class="item_tea">
+
+                                    <div class="infoTeaBody_item_div">
+                                        <div class="TeaBody_item_title">
+                                            Черный
+                                        </div>
+                                        <div class="TeaBody_item_ml">
+                                            200/400&nbsp;мл
+                                        </div>
+                                    </div>
+
+                                    <div class="types_of_tea">
+                                        Черный / Зеленый /<br>Травяной / Ягодный /<br>Фруктовый / Ройбуш
+                                    </div>
+
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    2.50/4.00р.
+                                </div>
+                            </div>
+                            <div class="infoTeaBody_item">
+                                <div class="item_tea">
+
+                                    <div class="infoTeaBody_item_div">
+                                        <div class="TeaBody_item_title">
+                                            Улун
+                                        </div>
+                                        <div class="TeaBody_item_ml">
+                                            200&nbsp;мл
+                                        </div>
+                                    </div>
+
+                                    <div class="types_of_tea">
+                                        Молочный / Виноградный /<br>Манго
+                                    </div>
+
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    5.00р.
+                                </div>
+                            </div>
+                            <div class="infoTeaBody_item">
+                                <div class="infoTeaBody_item_div">
+                                    <div class="TeaBody_item_title">
+                                        Масала
+                                    </div>
+                                    <div class="TeaBody_item_ml">
+                                        400&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    5.00р.
+                                </div>
+                            </div>
+                            <div class="infoTeaBody_item">
+                                <div class="infoTeaBody_item_div">
+                                    <div class="TeaBody_item_title">
+                                        Ханибуш
+                                    </div>
+                                    <div class="TeaBody_item_ml">
+                                        400&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    5.00р.
+                                </div>
+                            </div>
+                            <div class="infoTeaBody_item">
+                                <div class="infoTeaBody_item_div">
+                                    <div class="TeaBody_item_title">
+                                        Анчан&nbsp;чай
+                                    </div>
+                                    <div class="TeaBody_item_ml">
+                                        400&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    5.00р.
+                                </div>
+                            </div>
+                            <div class="infoTeaBody_item">
+                                <div class="infoTeaBody_item_div">
+                                    <div class="TeaBody_item_title">
+                                        Морс
+                                    </div>
+                                    <div class="TeaBody_item_ml">
+                                        200&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    3.00р.
+                                </div>
+                            </div>
+                            <div class="infoTeaBody_item">
+                                <div class="infoTeaBody_item_div">
+                                    <div class="TeaBody_item_title">
+                                        Морсвейн
+                                    </div>
+                                    <div class="TeaBody_item_ml">
+                                        200&nbsp;мл
+                                    </div>
+                                </div>
+                                <div class="TeaBody_item_price">
+                                    4.00р.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img class="img13" src="./img/чай.jfif">
+                </div>
+            </div>
+
+            <footer></footer>
+
+            <a href="#" class="scrollup"><img src="./img/scroll.png"></a>
+            <script src="burger.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,750 @@
+#background{    
+    height: 490vw;
+}
+
+#cakes{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 50vw;
+    top: 7vw;
+    background: #F7DECD;    
+}
+.img1{
+    position: absolute;
+    left: 40%;
+    top: -24%;
+    width: 80%;
+}
+.img2{
+    display: none;
+}
+.cakesTitle{
+    display: flex;
+    justify-content: center;
+    
+}
+.menuBigTxt{
+    display: block;
+    font-family: VAG World;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 100%;
+    align-self: center;
+    
+    color: #FAF7F2;
+}
+.infoCakes{
+    width: 40%;
+    padding: 5%;
+    margin-left: 5%;
+    font-family: Bookman Old Style;
+    color: #B59177;
+}
+.infoCakesHeader{
+    display: flex;
+    margin-bottom: 7%;
+}
+.infoCakesBody_item{
+    display: flex;
+    justify-content: space-between;
+}
+.infoCakes_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+.piece{
+    padding: 2%;
+    font-size: 1.3vw;
+}
+.infoCakesBody_item{
+    font-size: 2vw;
+    padding: 1.5%;
+}
+
+
+
+#croissants{
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    top: 62vw;
+    background: #B59177;    
+}
+.img3{
+    width: 47%;
+    box-shadow: 12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img4{
+    display: none;
+}
+.infoCroissants{
+    width: 40%;
+    padding: 7%;
+    font-family: Bookman Old Style;
+    color: #FAF7F2;
+}
+.infoCroissantsHeader{
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+.infoCroissantsBody_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding: 1.5%;
+}
+.infoCroissants_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+
+
+
+#puncakes{
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    top: 117vw;
+    background: #BED6BE;    
+}
+.img5{
+    margin-left: 3%;    
+    width: 43%;
+    box-shadow: -12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img6{
+    display: none;
+}
+.infoPuncakes{
+    width: 40%;
+    padding: 9%;
+    margin-left: 0.5%;
+    font-family: Bookman Old Style;
+    color: #799277;
+}
+.infoPuncakesHeader{
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+.infoPuncakesBody_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding: 1.5%;
+}
+.infoPuncakes_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+
+
+
+#breakfast{
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    top: 172vw;
+    background: #F6DECD;    
+}
+.img7{
+    width: 39%;
+    box-shadow: 12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img8{
+    display: none;
+}
+.infoBreakfast{
+    width: 40%;
+    padding: 7%;
+    margin-left: 3%;
+    font-family: Bookman Old Style;
+    color: #B59177;
+}
+.infoBreakfastHeader{
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+.infoBreakfastBody_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding: 1.5%;
+}
+.infoBreakfast_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+
+
+
+#drink{
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 176vw;
+    top: 226vw;
+    background: #B59177;    
+}
+.drinkTitle{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.drinkBigTxt{
+    display: block;
+    font-family: Museo Cyrl;
+    font-style: normal;
+    font-size: 4vw;
+    line-height: 100%;
+    align-self: center;
+    z-index: 2;
+    
+    color: #FAF7F2;
+}
+
+
+.coffee{
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 7%;
+}
+.img9{
+    width: 47%;
+    box-shadow: -12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img10{
+    display: none;
+}
+.infoCoffee{
+    width: 57%;
+    padding: 7%;
+    font-family: Bookman Old Style;
+    color: #FAF7F2;
+}
+.infoCoffeeHeader{
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+.infoCoffeeBody_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding: 1.5%;
+}
+.infoCoffeeBody_item_div{
+    display: flex;
+}
+.CoffeeBody_item_title{
+    margin-right: 2%;
+}
+.CoffeeBody_item_ml{
+    color: #DEC4B2;
+    font-size: 1.4vw;
+    margin-top: 2%;
+    width: 20vw;
+}
+.infoCoffee_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+
+
+.cocoa{
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 7%;
+}
+.img11{
+    width: 47%;
+    /* margin-left: 1%; */
+    box-shadow: 12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img12{
+    display: none;
+}
+.infoCocoa{
+    width: 45%;
+    padding: 7%;
+    margin-top: 3%;
+    font-family: Bookman Old Style;
+    color: #FAF7F2;
+}
+.infoCocoaHeader{
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+.infoCocoaBody_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding: 1.5%;
+}
+.infoCocoaBody_item_div{
+    display: flex;
+}
+.CocoaBody_item_title{
+    margin-right: 2%;
+}
+.CocoaBody_item_ml{
+    color: #DEC4B2;
+    font-size: 1.4vw;
+    margin-top: 2%;
+    /* width: 20vw; */
+}
+.infoCocoa_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+
+
+.tea{
+    display: flex;
+    width: 100%;
+    height: 50vw;
+}
+.img13{
+    width: 47%;
+    box-shadow: -12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img14{
+    display: none;
+}
+.infoTea{
+    width: 57%;
+    margin: 2% 7% 0% 7%;
+    font-family: Bookman Old Style;
+    color: #FAF7F2;
+}
+.infoTeaHeader{
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+.infoTeaBody_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    padding: 1.5%;
+}
+.infoTeaBody_item_div{
+    display: flex;
+}
+.TeaBody_item_title{
+    margin-right: 2%;
+}
+.TeaBody_item_ml{
+    color: #DEC4B2;
+    font-size: 1.4vw;
+    margin-top: 2%;
+    width: 20vw;
+}
+.types_of_tea{
+    color: #DEC4B2;
+    font-size: 1.4vw;
+}
+.infoTea_title{
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+}
+
+
+
+.footer{    
+    top: 413vw;
+}
+
+
+
+/* ========= медиазапросы ========= */
+
+@media screen and (max-width: 426px) {
+
+    #background{    
+        height: 1122vw;
+    }
+    .footer{    
+        top: 1044vw;
+    }
+
+    #cakes{
+        top: 10vw;
+        height: 152vw;
+    }
+    .img1{
+        display: none;
+    }
+    .menuBigTxt{
+        margin-bottom: 4%;
+        font-size: 17vw;
+    }
+    .img2{
+        display: block;
+        width: 100%;
+    }
+    .infoCakes{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoCakesHeader{
+        margin-bottom: 5%;
+        justify-content: center;
+        margin-left: 25%;
+    }
+    .infoCakes_title{
+        font-size: 7vw;
+    }
+    .piece{
+        padding: 1%;
+        font-size: 3vw;
+    }
+    .infoCakesBody_item{
+        font-size: 4vw;
+    }
+    
+
+
+    #croissants{
+        height: 145vw;
+        top: 162vw; 
+        display: block; 
+        justify-content: center; 
+    }
+    .img3{
+        display: none;
+    }
+    .img4{
+        display: block;
+        width: 100%;
+    }
+    .infoCroissants{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoCroissantsHeader{
+        margin-bottom: 5%;
+    }
+    .infoCroissantsBody_item{
+        font-size: 4vw;
+    }
+    .infoCroissants_title{
+        font-size: 7vw;
+    }
+    
+    
+    
+    #puncakes{
+        display: block;
+        height: 140vw;
+        top: 307vw;  
+    }
+    .img5{
+        display: none;
+    }
+    .img6{
+        display: block;
+        width: 100%;
+    }
+    .infoPuncakes{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoPuncakesHeader{
+        margin-bottom: 5%;
+    }
+    .infoPuncakesBody_item{
+        font-size: 4vw;
+    }
+    .infoPuncakes_title{
+        font-size: 7vw;
+    }
+    
+
+
+    #breakfast{
+        display: block;
+        height: 141vw;
+        top: 447vw;   
+    }
+    .img7{
+        display: none;
+    }
+    .img8{
+        display: block;
+        width: 100%;
+    }
+    .infoBreakfast{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoBreakfastHeader{
+        margin-bottom: 5%;
+    }
+    .infoBreakfastBody_item{
+        font-size: 4vw;
+    }
+    .infoBreakfast_title{
+        font-size: 7vw;
+    }
+    
+    
+
+    #drink{
+        height: 449vw;
+        top: 588vw;   
+    }
+    .drinkTitle{
+        display: flex;
+        justify-content: center;
+        padding: 4%;
+    }
+    .drinkBigTxt{
+        font-size: 7vw;
+    }
+    
+    
+    .coffee{
+        display: block;
+        height: 70vw;
+    }
+    .img9{
+       display: none;
+    }
+    .img10{
+        display: block;
+        width: 100%;
+    }
+    .infoCoffee{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoCoffeeHeader{
+        margin-bottom: 5%;
+    }
+    .infoCoffeeBody_item{
+        font-size: 4vw;
+    }
+    .CoffeeBody_item_title{
+        margin-right: 2%;
+    }
+    .CoffeeBody_item_ml{
+        font-size: 2.5vw;
+        margin-top: 2%;
+    }
+    .infoCoffee_title{
+        font-size: 7vw;
+    }
+    
+    
+    .cocoa{
+        display: block;
+        height: 133vw;
+    }
+    .img11{
+        display: none;
+    }
+    .img12{
+        display: block;
+    }
+    .infoCocoa{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoCocoaHeader{
+        margin-bottom: 5%;
+    }
+    .infoCocoaBody_item{
+        font-size: 4vw;
+    }
+    .CocoaBody_item_ml{
+        font-size: 2.5vw;
+        margin-top: 2%;
+    }
+    .infoCocoa_title{
+        font-size: 7vw;
+    }
+    
+    
+    .tea{
+        display: block;
+        height: 150vw;
+    }
+    .img13{
+        display: none;
+    }
+    .img14{
+        display: block;
+        width: 100%;
+    }
+    .infoTea{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8%;
+    }
+    .infoTeaHeader{
+        margin-bottom: 5%;
+    }
+    .infoTeaBody_item{
+        font-size: 4vw;
+    }
+    .TeaBody_item_ml{
+        font-size: 2.5vw;
+        margin-top: 2%;
+    }
+    .types_of_tea{
+        font-size: 2.5vw;
+    }
+    .infoTea_title{
+        font-size: 7vw;
+    }
+}
+
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 75; */
+    opacity: 1;
+    /* z-index: 3; */
+    display: none;
+  }
+  
+  .hamb {
+    display: none;
+  }
+  
+  .popup {
+    display: none;
+  }  
+  .menu_burger > li > a {
+    text-decoration: none;
+  }
+  
+  .navbar__wrap .menu_burger {
+    display: flex;
+  }
+  
+  .navbar__wrap .menu_burger > li {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .navbar__wrap .menu_burger > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #dbd8d2;
+  }
+  
+  .navbar__wrap .menu_burger> li > a:hover {
+    color: #dbd8d2;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .navbar{
+        display: block;
+        z-index: 3;
+    }
+    .navbar__wrap .menu_burger {
+      display: none;
+    }
+    .hamb {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .hamb__field {
+      padding: 1vw 2vw;
+      cursor: pointer;
+    }
+    .bar {
+      display: block;
+      width: 5vw;
+      height: .27vw;
+      margin: 1vw auto;
+      background-color: #B59177;
+      transition: 0.2s;
+      justify-content: end;
+    }
+    .popup {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #FAF7F2;
+      z-index: 2;
+      display: flex;
+      transition: 0.3s;
+      font-family: Bookman Old Style;
+    }
+    .popup.open {
+      left: 0;
+    }
+    .popup .menu_burger {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 15vh 0;
+      overflow: auto;
+    }
+    .popup .menu_burger > li {
+      width: 100%;
+    }
+    .popup .menu_burger > li > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      font-size: 5vw;
+      color: #B59177;
+      font-family: Bookman Old Style;
+    }
+    .popup .menu_burger > li > a:hover {
+      background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+      transform: translateY(.8vw) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+      transform: translateY(-1.7vw) rotate(-45deg);
+    }
+    body.noscroll {
+      overflow: hidden;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .hamb__field {
+        padding: 2.5vw 3vw;
+    }
+  }

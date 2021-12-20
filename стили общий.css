@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Museo Cyrl';
+    src: url('./fonts/Museo Cyrl 500.otf');
+  }
+body{
+    background-color: #678C64;
+    /* margin: 0; */
+    
+}
+#background{
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+
+    background: #FAF7F2;
+    border-radius: 2vw;
+}
+.scrollup{
+    width: 5vw;
+    height: 5vw;
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+    display: none;
+    border-radius: 50%;
+    box-shadow: 2px 0px 50px rgba(0, 0, 0, 0.25);
+}
+.scrollup img{
+    width: 5vw;
+    height: 5vw;
+}
+.logo{
+    position: absolute;
+    width: 5.5vw;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+/* ВЫПАДАЮЩЕЕ МЕНЮ */
+
+.contacts{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 2.5%;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Museo Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9vw;
+    line-height: 129.84%;
+    /* identical to box height, or 35px */
+
+    letter-spacing: 0.07em;
+
+    color: #B59177;
+}  
+.cluv_contacts{
+    position: absolute;
+    width: 1.3vw;
+    margin-left: 102%;
+    margin-top: -12%;
+}
+.contacts a {
+    text-decoration: none;
+    display: block;
+    transition: .5s linear;
+}
+.contacts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.topmenu1 > li {
+    display: block;
+    position: relative;
+}
+.topmenu1 > li > a {
+    text-transform: uppercase;
+    color: #B59177;
+}
+.submenu1 {
+    position: absolute;
+    z-index: 1;
+    top: 3vw;
+    left: -11vw;
+    height: 10vw;
+    width: 23vw;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: .5s ease-in-out;
+}
+.contacts:first-child{
+    box-shadow: 2px -1px 8px rgba(0, 0, 0, 0.25);
+}
+.submenu1 li {
+    position: relative;
+    margin: 1px;
+}
+.submenu1 li:first-child{
+    box-shadow: 2px -1px 8px rgba(0, 0, 0, 0.25);
+}
+.submenu1 li:last-child{
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.25);
+}
+.submenu1 a {
+    background: #FAF7F2;
+    /* border: solid 1px #B59177; */
+    color: #B59177;
+    text-align: left;
+    font-size: 1.6vw;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+.contacts li:hover > .submenu1 {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+.is_open{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px); 
+}
+
+
+.adress{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 2.5%;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Museo Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9vw;
+    line-height: 129.84%;
+    /* identical to box height, or 35px */
+
+    letter-spacing: 0.07em;
+
+    color: #B59177;
+}
+.cluv_adress{
+    position: absolute;
+    width: 1.3vw;
+    margin-left: 102%;
+    margin-top: -16%;
+}
+.cluv1_adress{
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    width: 0.7vw;
+}
+.adress a {
+    text-decoration: none;
+    display: block;
+    transition: .5s linear;
+}
+.adress ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.topmenu2 > li {
+    display: block;
+    position: relative;
+}
+.topmenu2 > li > a {
+    text-transform: uppercase;
+    color: #B59177;
+}
+.submenu2 {
+    position: absolute;
+    z-index: 1;
+    top: 3vw;
+    left: -11vw;
+    height: 10vw;
+    width: 22vw;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: .5s ease-in-out;
+}
+.adress:first-child{
+    box-shadow: 2px -1px 8px rgba(0, 0, 0, 0.25);
+}
+.submenu2 li {
+    position: relative;
+    margin: 1px;
+}
+.submenu2 li:first-child{
+    box-shadow: 2px -1px 8px rgba(0, 0, 0, 0.25);
+}
+.submenu2 li:last-child{
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.25);
+}
+.submenu2 a {
+    background: #FAF7F2;
+    color: #B59177;
+    text-align: right;
+    font-size: 1.6vw;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+.submenu2 .submenu2 {
+    position: absolute;
+    top: 0;
+    left: -22vw;
+}
+.adress li:hover > .submenu2 {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 100vw;
+}
+.inst{
+    /* width: 100%; */
+    height: 52vw;
+    background: #F7DECD;
+    
+}
+
+.inst_txt{
+    display: flex;
+    justify-content: center;
+    padding: 1.5% 0 0 0;
+
+    font-family: Museo Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 108.84%;
+    /* or 39px */
+
+    text-align: justify;
+    letter-spacing: -0.01em;
+
+    color: #B59177;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+.inst img{
+    transition: 0.5s;
+    width: 22vw;
+    padding: 0.5vw;
+}
+.inst img:hover{
+    transform: scale(0.95);
+}
+.inst_txt a{
+    color: #B59177;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo a{
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.logo_footer{
+    display: flex;
+    align-items: center;   
+}
+.logo_footer_img{
+    width: 8vw;
+}
+.logo_footer_txt{
+    font-family: VAG World;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 125.34%;
+
+    margin-left: 1%;
+
+    color: #B59177;
+}
+.footer_content{
+    display: block;
+    text-align: right;
+    font-family: Bookman Old Style;
+    font-size: 2vw;
+    margin-top: 4%;
+    margin-right: 5%;
+    color: #B59177;
+}
+.footer_content a{
+    text-decoration: none;
+    color: #B59177;
+}
+.footer_content a:hover{
+    text-decoration: underline;
+}
+.content{
+    margin-bottom: 7%;
+}
+
+hr{
+    width: 100%;
+    border: none;
+    background-color: #B59177;
+    height: 0.01vw;
+    margin-top: 3%;
+}
+
+.developer{
+    display: flex;
+    justify-content: center;
+    font-family: Museo Cyrl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.65vw;
+    line-height: 129.84%;
+    letter-spacing: 0.07em;
+    color: #B59177;
+    margin-top: 4%;
+}
+
+
+
+
+
+@media screen and (max-width: 769px) {
+    hr{
+        height: 0.02vw;
+    }
+    .scrollup{
+        right: 5%;
+        bottom: 3%;
+    }
+
+    .contacts, .adress{
+        display: none;
+    }
+    /* .submenu1 {
+        left: -14vw;
+        height: 10vw;
+        width: 27vw;
+    }
+    .submenu1 a{
+        padding: 10px 10px;
+    } */
+}
+@media screen and (max-width: 426px) {
+    #background{
+        border-radius: 6vw;
+        width: 99%;
+    }
+    
+    .logo{
+        width: 6vw;
+        margin-top: 2.5%;
+        margin-left: 3%;
+    }
+
+
+    .scrollup{
+        width: 7vw;
+        height: 7vw;
+        bottom: 2.5%;
+    }
+    .scrollup img{
+        width: 7vw;
+        height: 7vw;
+    }
+    
+
+    .inst3, .inst4, .inst5, .inst6{
+        display: none;
+    }
+    .inst img{
+        width: 40vw;
+    }
+    .inst_txt{
+        font-size: 3.7vw;
+    }
+    .footer_content{
+        font-size: 2.5vw;
+    }
+
+    hr{
+        height: 0.03vw;
+    }
+    .developer{
+        margin-top: 3%;
+        font-style: 2.2vw;
+    }
+}
+
+

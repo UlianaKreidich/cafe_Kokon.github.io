@@ -1,0 +1,407 @@
+#background{    
+    height: 255vw;
+}
+
+
+#macarons{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 50vw;
+    top: 7vw;
+    background: #B59177;    
+}
+.macaronsTitle{
+    display: flex;
+    justify-content: center;
+    
+}
+.newsBigTxt{
+    position: absolute;
+    top: 1%;
+    font-family: VAG World;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 100%;
+    align-self: center;
+    /* z-index: 2; */
+    
+    color: #FAF7F2;
+}
+.macarons_block{
+    display: flex;
+}
+.img1{
+    width: 40vw;
+    box-shadow: 12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img2{
+    display: none;
+}
+.macarons_txt{
+    width: 40%;
+    padding: 10%;
+    margin-top: 7%;
+}
+.macarons_title{
+    color: #FAF7F2;
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.macarons_item{
+    font-family: Bookman Old Style;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+    line-height: 125.34%;
+    /* or 30px */
+
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: #FAF7F2;
+}
+
+
+
+#cakePops{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 50vw;
+    top: 62vw;
+    background: #F7DECD;    
+}
+.cakePopsTitle{
+    display: flex;
+    justify-content: center;
+    
+}
+.cakePops_block{
+    display: flex;
+}
+.img3{
+    width: 44vw;
+    height: 50vw;
+    box-shadow: -12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img4{
+    display: none;
+}
+.cakePops_txt{
+    width: 40%;
+    padding: 10%;
+    margin-top: 7%;
+}
+.cakePops_title{
+    color: #B59177;
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.cakePops_item{
+    font-family: Bookman Old Style;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+    line-height: 125.34%;
+    /* or 30px */
+
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: #B59177;
+}
+
+
+
+#wine{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 50vw;
+    top: 117vw;
+    background: #BED6BE;    
+}
+.wine_block{
+    display: flex;
+}
+.img5{
+    width: 40vw;
+    box-shadow: 12px 0px 41px rgba(0, 0, 0, 0.25);
+}
+.img6{
+    display: none;
+}
+.wine_txt{
+    width: 35%;
+    padding: 10%;
+    margin-top: 5.1%;
+}
+.wine_title{
+    color: #799277;
+    font-size: 4vw;
+    font-family: Museo Cyrl;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.wine_item{
+    font-family: Bookman Old Style;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+    line-height: 125.34%;
+    /* or 30px */
+
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: #799277;
+}
+
+
+.footer{    
+    top: 178vw;
+}
+
+
+/* ========= медиазапросы ========= */
+
+@media screen and (max-width: 426px) {
+
+    #background{    
+        height: 463vw;
+    }
+    .footer{    
+        top: 385vw;
+    }
+
+
+
+    #macarons{
+        top: 10vw;
+        height: 145vw;
+    }
+    .img1{
+        display: none;
+    }
+    .newsBigTxt{
+        display: block;
+        margin-bottom: 4%;
+        font-size: 17vw;
+    }
+
+    .img2{        
+        display: block;margin-top: 23vw;
+        width: 100%;
+    }
+    .macarons_block{
+        display: block;
+        margin-top: 7%;
+        
+    }
+    .macarons_txt{
+        width: 80%;
+        padding: 0%;
+        margin: 0 auto;
+    }
+    .macarons_title{
+        font-size: 7vw;
+    }
+    .macarons_item{
+        font-size: 3.2vw;
+    }
+
+
+
+
+    #cakePops{
+        top: 155vw;
+        height: 110vw;
+    }
+    .img3{
+        display: none;
+    }
+    .img4{
+        display: block;
+        width: 100%;
+    }
+    .cakePops_block{
+        display: block;
+               
+    }
+    .cakePops_txt{
+        width: 80%;
+        padding: 0%;
+        margin: 0 auto;margin-top: 7%; 
+    }
+    .cakePops_title{
+        font-size: 7vw;
+    }
+    .cakePops_item{
+        font-size: 3.2vw;
+    }
+
+
+    #wine{
+        top: 265vw;
+        height: 113vw;
+    }
+    .img5{
+        display: none;
+    }
+    .img6{
+        display: block;
+        width: 100%;
+    }
+    .wine_block{
+        display: block;
+               
+    }
+    .wine_txt{
+        width: 80%;
+        padding: 0%;
+        margin: 0 auto;margin-top: 7%; 
+    }
+    .wine_title{
+        font-size: 7vw;
+    }
+    .wine_item{
+        font-size: 3.2vw;
+    }
+
+}
+
+
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 75; */
+    opacity: 1;
+    /* z-index: 3; */
+    display: none;
+  }
+  
+  .hamb {
+    display: none;
+  }
+  
+  .popup {
+    display: none;
+  }  
+  .menu_burger > li > a {
+    text-decoration: none;
+  }
+  
+  .navbar__wrap .menu_burger {
+    display: flex;
+  }
+  
+  .navbar__wrap .menu_burger > li {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .navbar__wrap .menu_burger > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #dbd8d2;
+  }
+  
+  .navbar__wrap .menu_burger> li > a:hover {
+    color: #dbd8d2;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .navbar{
+        display: block;
+        z-index: 3;
+    }
+    .navbar__wrap .menu_burger {
+      display: none;
+    }
+    .hamb {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .hamb__field {
+      padding: 1vw 2vw;
+      cursor: pointer;
+    }
+    .bar {
+      display: block;
+      width: 5vw;
+      height: .27vw;
+      margin: 1vw auto;
+      background-color: #B59177;
+      transition: 0.2s;
+      justify-content: end;
+    }
+    .popup {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #FAF7F2;
+      z-index: 2;
+      display: flex;
+      transition: 0.3s;
+      font-family: Bookman Old Style;
+    }
+    .popup.open {
+      left: 0;
+    }
+    .popup .menu_burger {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 15vh 0;
+      overflow: auto;
+    }
+    .popup .menu_burger > li {
+      width: 100%;
+    }
+    .popup .menu_burger > li > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      font-size: 5vw;
+      color: #B59177;
+      font-family: Bookman Old Style;
+    }
+    .popup .menu_burger > li > a:hover {
+      background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+      transform: translateY(.8vw) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+      transform: translateY(-1.7vw) rotate(-45deg);
+    }
+    body.noscroll {
+      overflow: hidden;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .hamb__field {
+        padding: 2.5vw 3vw;
+    }
+  }

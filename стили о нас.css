@@ -1,0 +1,362 @@
+#background {
+    height: 276vw;
+}
+
+.contacts, .adress{
+    z-index: 3;
+}
+.about_usTitle{
+    display: flex;
+    justify-content: center;    
+}
+
+.about_usBigTxt{
+    position: absolute;
+    top: 2%;
+    font-family: VAG World;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 100%;
+    align-self: center;
+    z-index: 2;
+    
+    color: #FAF7F2;
+}
+
+.description{
+    width: 100%;
+    height: 130vw;
+    margin-top: 60vw;
+    background-color: #bed6be;
+}
+.first{
+    display: flex;
+}
+.info_first{    
+    width: 35%;
+    padding: 10%;
+    margin-top: 1%;
+    margin-left: 3%;
+    
+    font-family: Bookman Old Style;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+    line-height: 125.34%;
+    /* or 30px */
+
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: #799276;
+}
+.rectangle_white_first{
+    width: 30vw;
+    height: 30vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: #FAF7F2;
+}
+.img1{
+    position: absolute;
+    width: 32%;
+    margin-left: 13%;
+    margin-top: 8%;
+    box-shadow:  12px 12px 45px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.second{
+    display: flex;
+}
+.info_second{    
+    width: 35%;
+    padding: 10%;
+    
+    font-family: Bookman Old Style;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+    line-height: 125.34%;
+    /* or 30px */
+
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: #799276;
+}
+.rectangle_white_second{
+    width: 30vw;
+    height: 30vw;
+    margin-top: 5%;
+    margin-left: 3%;
+    background: #FAF7F2;
+}
+.img2{
+    position: absolute;
+    width: 32%;
+    margin-left: 54%;
+    margin-top: 8%;
+    box-shadow:  -12px 12px 45px rgba(0, 0, 0, 0.25);
+}
+
+
+.third{
+    display: flex;
+}
+.info_third{    
+    width: 35%;
+    padding: 10%;
+    margin-top: 1%;
+    margin-left: 3%;
+    
+    font-family: Bookman Old Style;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+    line-height: 125.34%;
+    /* or 30px */
+
+    text-align: justify;
+    letter-spacing: 0.01em;
+
+    color: #799276;
+}
+.rectangle_white_third{
+    width: 30vw;
+    height: 30vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: #FAF7F2;
+}
+.img3{
+    position: absolute;
+    width: 32%;
+    margin-left: 13%;
+    margin-top: 8%;
+    box-shadow:  12px 12px 45px rgba(0, 0, 0, 0.25);
+}
+
+.footer{    
+    top: 199vw;
+}
+
+
+
+/* ========= медиазапросы ========= */
+@media screen and (max-width: 426px) {
+
+    #background{    
+        height: 556vw;
+    }
+    .footer{    
+        top: 478vw;
+    }
+
+
+    .about_usBigTxt{
+        top: 1.7%;
+        font-size: 17vw;
+    }
+
+    .description{
+        margin-top: 65vw;
+        height: 405vw;
+    }
+
+
+    .first{
+        flex-direction: column;
+    }
+    .rectangle_white_first{
+        order: 1;
+        width: 70%;
+        height: 65vw;
+        margin-top: 0;
+    }
+    .img1 {
+        width: 70%;
+        margin-left: 20%;
+        margin-top: 70%;
+    }
+    .info_first{
+        font-size: 3.2vw;
+        width: 80%;
+        margin: 0%;
+    }
+
+
+
+    .second{
+        flex-direction: column;
+        margin-top: 8%;
+    }
+    .rectangle_white_second{
+        width: 70%;
+        height: 65vw;
+        margin-top: 0;
+        margin-left: 20%;
+    }
+    .img2 {
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 67%;
+    }
+    .info_second{
+        font-size: 3.2vw;
+        width: 80%;
+        margin: 0%;
+    }
+
+
+    .third{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .rectangle_white_third{
+        order: 1;
+        width: 70%;
+        height: 65vw;
+        margin-top: 0;
+    }
+    .img3 {
+        width: 70%;
+        margin-left: 20%;
+        margin-top: 70%;
+    }
+    .info_third{
+        font-size: 3.2vw;
+        width: 80%;
+        margin: 0%;
+    }
+}
+
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 75; */
+    opacity: 1;
+    /* z-index: 3; */
+    display: none;
+  }
+  
+  .hamb {
+    display: none;
+  }
+  
+  .popup {
+    display: none;
+  }  
+  .menu_burger > li > a {
+    text-decoration: none;
+  }
+  
+  .navbar__wrap .menu_burger {
+    display: flex;
+  }
+  
+  .navbar__wrap .menu_burger > li {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .navbar__wrap .menu_burger > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #dbd8d2;
+  }
+  
+  .navbar__wrap .menu_burger> li > a:hover {
+    color: #dbd8d2;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .navbar{
+        display: block;
+        z-index: 3;
+    }
+    .navbar__wrap .menu_burger {
+      display: none;
+    }
+    .hamb {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .hamb__field {
+      padding: 1vw 2vw;
+      cursor: pointer;
+    }
+    .bar {
+      display: block;
+      width: 5vw;
+      height: .27vw;
+      margin: 1vw auto;
+      background-color: #B59177;
+      transition: 0.2s;
+    }
+    .popup {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #FAF7F2;
+      z-index: 2;
+      display: flex;
+      transition: 0.3s;
+      font-family: Bookman Old Style;
+    }
+    .popup.open {
+      left: 0;
+    }
+    .popup .menu_burger {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 15vh 0;
+      overflow: auto;
+    }
+    .popup .menu_burger > li {
+      width: 100%;
+    }
+    .popup .menu_burger > li > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      font-size: 5vw;
+      color: #B59177;
+      font-family: Bookman Old Style;
+    }
+    .popup .menu_burger > li > a:hover {
+      background-color: rgba(122, 82, 179, 0.1);
+    }
+    .hamb__field.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamb__field.active .bar:nth-child(1) {
+      transform: translateY(.8vw) rotate(45deg);
+    }
+    .hamb__field.active .bar:nth-child(3) {
+      transform: translateY(-1.7vw) rotate(-45deg);
+    }
+    body.noscroll {
+      overflow: hidden;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .hamb__field {
+        padding: 2.5vw 3vw;
+    }
+  }
